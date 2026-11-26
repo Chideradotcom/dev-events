@@ -35,7 +35,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         geist.variable,
       )}
     >
-      <body className="min-h-full flex flex-col" cz-shortcut-listen="true">
+      <body
+        className="min-h-full flex flex-col"
+        cz-shortcut-listen="true"
+        data-new-gr-c-s-check-loaded="14.1350.0"
+        data-gr-ext-installed=""
+      >
         <div className="absolute inset-0 top-0 z-[-1] min-h-screen">
           <Navbar />
           <LightRays
